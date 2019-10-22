@@ -1,0 +1,25 @@
+// Place all browser resets in this file
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+  color: $color-black;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}

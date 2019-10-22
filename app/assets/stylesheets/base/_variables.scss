@@ -1,0 +1,36 @@
+// Place all SASS variables
+
+//-------------- Fonts --------------//
+
+$font-primary: 'Rubik', sans-serif;
+
+
+//-------------- Colors --------------//
+
+$color-primary: #00ad45; // rgba(0, 173, 69, 1)
+$color-primary-light: #5ecc62; // rgba(94, 204, 98, 1)
+$color-primary-dark: #285943; // rgba(40, 89, 67, 1)
+
+$color-secondary: #008c9e; // rgba(0, 140, 158, 1)
+$color-secondary-light: #b3dcff; // rgba(179, 220, 255, 1)
+$color-secondary-dark: #005f6b; // rgba(0, 95, 107, 1)
+
+$color-off-white: #fffef5;
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+$color-black: #1d2d35;
+
+$color-red: #f54242;
+
+
+//-------------- Box Shadows/Borders --------------//
+
+$shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+$grey-line: 1px solid $color-grey-light-4;
