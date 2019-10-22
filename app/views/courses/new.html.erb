@@ -1,0 +1,6 @@
+<%= form_with model: @course do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, id: "title-field" %>
+
+  <%= f.submit "Create", id: "create-new-course-btn" %>
+<% end %>
