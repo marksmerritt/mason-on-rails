@@ -14,6 +14,7 @@ WebMock.disable_net_connect!(allow_localhost: true)
 
 include Warden::Test::Helpers
 
+
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
